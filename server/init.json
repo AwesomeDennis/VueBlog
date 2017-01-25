@@ -1,0 +1,30 @@
+[
+  {
+    "type": "Article",
+    "title": "Vue2.0",
+    "date": "2016/12/12",
+    "content": "你好，Vue!"
+  },
+  {
+    "type": "Article",
+    "title": "Node.js&&Express",
+    "date": "2016/11/11",
+    "content": "你好，node!"
+  },
+  {
+    "type": "Article",
+    "title": "webpack",
+    "date": "2015/11/11",
+    "content": "你好，webpack!"
+  },
+  {
+    "type": "Link",
+    "name": "GITHUB",
+    "href": "https://www.github.com"
+  },
+  {
+    "type": "Link",
+    "name": "VUE",
+    "href": "http://rc.vuejs.org/"
+  }
+]

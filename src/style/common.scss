@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  font-family: $fontGothic;
+  color: $black2;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, textarea {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+

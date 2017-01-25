@@ -1,0 +1,12 @@
+@media screen and (min-width: 701px) {
+  header.myHeader {
+    padding: 20px 100px;
+    margin-bottom: 60px; }
+    header.myHeader div .circle {
+      float: left; }
+
+  .wrap, footer {
+    width: 700px;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=mq.css.map */

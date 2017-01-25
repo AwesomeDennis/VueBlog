@@ -1,0 +1,44 @@
+@import "variables";
+
+@mixin rightSide() {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  bottom: 0;
+  width: calc(100% - 200px);
+  overflow-y: auto;
+}
+
+@mixin center() {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@mixin shade() {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@mixin defaultButton($color){
+  border: 1px solid $color;
+  color: $color;
+  background-color: #FFF;
+  border-radius: 4px;
+  transition: all 0.4s;
+  &:hover {
+    color: #FFF;
+    background-color: $color;
+  }
+}
+
+@mixin greenButton(){
+  @include defaultButton($green2);
+}
+
+@mixin orangeButton(){
+  @include defaultButton($orange1);
+}
