@@ -3,6 +3,8 @@
 > A Vue.js project
 
 ## Build Setup
+一个vue.js的博客系统
+
 
 ``` bash
 # install dependencies
